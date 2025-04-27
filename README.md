@@ -1,29 +1,41 @@
- 
-1.  Clonar Repositorio
+# Guía de Instalación y Ejecución del Proyecto
 
-    git clone  [https://github.com/vanxgse/airbnb-app.git](https://github.com/vanxgse/airbnb-app.git)
+## 1. Clonar el Repositorio
 
-2.  Instalar dependencias
-	
+```bash
+git clone https://github.com/vanxgse/airbnb-app.git
+```
 
-    npm install -y
+## 2. Instalar dependencias principales
 
-3.  Moverse a la carpeta client 
+```bash
+npm install -y
+```
 
-	cd client/
+## 3. Moverse a la carpeta client
 
-4.  Instalar dependencias de client
-	
+```bash
+cd client/
+```
 
-    npm install
+## 4. Instalar dependencias del cliente
 
-5.  Correr el proyecto
-Backend: 
-	
+```bash
+npm install -y
+```
 
-    npm run serverstart
+## 5. Correr el proyecto
 
- Frontend: 
-	
+###Backend
+Desde la raiz del proyecto:
 
-     npm start
+```bash
+npm run serverstart
+```
+
+###Frontend
+Desde la carpeta client:
+
+```bash
+npm start
+```
