@@ -39,3 +39,5 @@ Desde la carpeta client:
 ```bash
 npm start
 ```
+
+✅ ¡Listo! Ahora deberías tener el proyecto corriendo tanto en backend como en frontend.
