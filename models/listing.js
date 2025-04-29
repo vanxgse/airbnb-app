@@ -109,7 +109,7 @@ const ListingSchema = new Schema({
           comments: String
         }
       ]
-});
+}, { collection: 'listingsAndReviews' });
 
 // Export model
 module.exports = mongoose.model("Listing", ListingSchema);
