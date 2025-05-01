@@ -1,11 +1,42 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './styles/Nav.css';
 
 function Nav() {
   return (
-    <nav className="bg-gray-200 p-4">
-      <ul className="flex space-x-4">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+    <nav className="nav">
+      <ul className="nav-list">
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            Sobre Nosotros
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/destinos"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            Destinos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/contacto"
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            Contacto
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

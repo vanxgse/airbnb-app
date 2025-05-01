@@ -1,0 +1,38 @@
+.about-container {
+    padding: 4rem 2rem;
+    background: #ffd5c4;
+    color: #333;
+    min-height: 80vh;
+    text-align: center;
+    position: relative;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #6ac4bb;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .about-deco .palm {
+    margin: 3rem auto 0;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(#4CAF50, #388E3C);
+    clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+    animation: sway 4s infinite ease-in-out;
+  }
+  
+  @keyframes sway {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
