@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+require('colors');
+
 /**
  * Module dependencies.
  */
@@ -25,7 +27,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, () => console.log(`Server running on port ${port}`.yellow.bold));
 server.on('error', onError);
 server.on('listening', onListening);
 
