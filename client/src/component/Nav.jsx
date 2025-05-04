@@ -8,7 +8,9 @@ function Nav() {
         <li>
           <NavLink
             to="/"
-            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
           >
             Home
           </NavLink>
@@ -16,7 +18,9 @@ function Nav() {
         <li>
           <NavLink
             to="/about"
-            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
           >
             Sobre Nosotros
           </NavLink>
@@ -24,7 +28,9 @@ function Nav() {
         <li>
           <NavLink
             to="/destinos"
-            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
           >
             Destinos
           </NavLink>
@@ -32,9 +38,21 @@ function Nav() {
         <li>
           <NavLink
             to="/contacto"
-            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
           >
             Contacto
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/login"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Inicio de Sesión
           </NavLink>
         </li>
       </ul>

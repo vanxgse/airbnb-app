@@ -1,10 +1,15 @@
+import './styles/MapContainer.css'
+
 function MapContainer() {
-    return (
-      <div className="w-full h-96 bg-gray-300">
-        {/* Mapa va aquí */}
+  return (
+    <div className="map-container">
+      <h2>Explora el Mapa</h2>
+      <div className="map-placeholder">
+        {/* Aquí irá el mapa */}
+        <p>Cargando mapa...</p>
       </div>
-    );
-  }
-  
-  export default MapContainer;
-  
+    </div>
+  );
+}
+
+export default MapContainer;

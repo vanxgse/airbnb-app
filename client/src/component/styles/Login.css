@@ -1,0 +1,42 @@
+.login-container {
+    max-width: 400px;
+    margin: 4rem auto;
+    background-color: #fff5e1; /* arena */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(106, 196, 187, 0.4); /* sombra aguamarina */
+    border: 2px solid #6ac4bb;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    color: #f7786b; /* coral claro */
+    margin-bottom: 1rem;
+  }
+  
+  .login-container input {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .login-container button {
+    background-color: #f7786b; /* coral */
+    color: white;
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #e5625c; /* coral oscuro */
+  }
+  

@@ -4,6 +4,9 @@ import Footer from './component/Footer';
 import Nav from './component/Nav';
 import Home from './component/pages/Home';  
 import About from './component/pages/About'; 
+import Login from './component/pages/Login'; // Asegúrate que la ruta esté bien escrita
+import Register from './component/pages/Register';
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} /> 
+          <Route path="/register" element={<Register />} />
         </Routes>
       </main>
       <Footer />
