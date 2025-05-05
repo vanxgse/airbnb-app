@@ -20,6 +20,20 @@
     color: #444;
     line-height: 1.6;
   }
+
+  .link-creadores {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #00796b;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .link-creadores:hover {
+    border-color: #00796b;
+  }
   
   .about-deco .palm {
     margin: 3rem auto 0;

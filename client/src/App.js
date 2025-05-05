@@ -6,6 +6,7 @@ import Home from './component/pages/Home';
 import About from './component/pages/About'; 
 import Login from './component/pages/Login'; // Asegúrate que la ruta esté bien escrita
 import Register from './component/pages/Register';
+import Creadores from './component/pages/Creadores';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} /> 
           <Route path="/register" element={<Register />} />
+          <Route path="/creadores" element={<Creadores />} />
         </Routes>
       </main>
       <Footer />

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
 function About() {
@@ -9,6 +10,12 @@ function About() {
         Nuestra misión es ofrecerte una experiencia única para encontrar alojamientos en todo el mundo,
         con una estética que celebra la energía del Caribe colombiano y la calidez de México.
       </p>
+      <p>
+        Este proyecto fue creado con dedicación por dos desarrolladores apasionados.
+      </p>
+      <Link to="/creadores" className="link-creadores">
+        Conoce a los creadores
+      </Link>
       <div className="about-deco">
         <div className="palm"></div>
       </div>
