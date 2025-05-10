@@ -27,6 +27,16 @@ function Nav() {
         </li>
         <li>
           <NavLink
+            to="/mapa"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Mapa
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/destinos"
             className={({ isActive }) =>
               isActive ? 'nav-link active' : 'nav-link'

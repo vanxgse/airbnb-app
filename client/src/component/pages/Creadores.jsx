@@ -10,7 +10,7 @@ function Creadores() {
           <h3>Yurleidis López Fuentes</h3>
           <p>Desarrolladora Frontend | Colombia</p>
           <a
-            href="https://portafolio-rpersonal.vercel.app/" // ← Pon aquí tu portafolio real
+            href="https://portafolio-rpersonal.vercel.app/" // Portafolio
             target="_blank"
             rel="noopener noreferrer"
             className="btn-portafolio"
